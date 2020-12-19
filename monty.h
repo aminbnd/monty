@@ -30,5 +30,8 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/** Libraries **/
+#include <stdio.h>
+#include <stdlib.h>
 
 #endif
