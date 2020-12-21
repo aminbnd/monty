@@ -1,21 +1,7 @@
-+       Cell c0 = 1
-> ++++++++  Cell c1 = 8
-
-[        Start your loops with your cell pointer on the loop counter (c1 in our case)
-< +      Add 1 to c0
-> -      Subtract 1 from c1
-]        End your loops with the cell pointer on the loop counter
-
-At this point our program has added 5 to 2 leaving 7 in c0 and 0 in c1
-but we cannot output this value to the terminal since it is not ASCII encoded!
-
-To display the ASCII character "7" we must add 48 to the value 7
-48 = 6 * 8 so let's use another loop to help us!
-
-++++ ++++  c1 = 8 and this will be our loop counter again
-[
-< +++ +++  Add 6 to c0
-> -        Subtract 1 from c1
-]
-< .        Print out c0 which has the value 55 which translates to "7"!
->++.
+,                   At c0 and read char
+>,                  Forward to c1 and read char
+[<+>-]              While c1 above 0 increment c0 and decrement c1
+                    c0 has result in char form (need to turn it into number by subtracting 48 to c0)
+++++++              At c1 add 6             
+[<-------->-]       While c1 above 0 decrement c0 8 times and decrement c1
+<.                  Back to c0 and print
