@@ -10,5 +10,6 @@ Files containing Monty byte codes usually have the .m extension. Most of the ind
 
 ## How it works 
 To use the program, compile the *.c files in the repository:
-    $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+```$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+```
 #### Example
