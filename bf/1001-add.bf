@@ -18,3 +18,4 @@ To display the ASCII character "7" we must add 48 to the value 7
 > -        Subtract 1 from c1
 ]
 < .        Print out c0 which has the value 55 which translates to "7"!
+>++.
